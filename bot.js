@@ -21,7 +21,7 @@ const ADMIN_UID = process.env.ADMIN_UID || '1130431721';
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'W2OcTYKAvFoa0Ur';
 const PORT = parseInt(process.env.PORT || '8000');
 const DOMAIN = process.env.DOMAIN || '';
-const DB_PATH = process.env.DB_PATH || '';//bot_data.json
+const DB_PATH = process.env.DB_PATH || 'bot_data.json';
 
 const NOTIFY_INTERVAL = 24 * 3600 * 1000; // 1 day (ms)
 const FRAUD_DB_URL = 'https://raw.githubusercontent.com/Squarelan/telegram-verify-bot/main/data/fraud.db';
