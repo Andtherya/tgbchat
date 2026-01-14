@@ -16,12 +16,12 @@ const path = require('path');
 const fs = require('fs');
 
 // Configuration
-const BOT_TOKEN = process.env.BOT_TOKEN || '';
-const ADMIN_UID = process.env.ADMIN_UID || '';
-const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'my-secret-token';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8324596212:ACHznhDgRuW2OcTYKAvFoa0UrDiMnef4Qyh';
+const ADMIN_UID = process.env.ADMIN_UID || '1130431721';
+const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'W2OcTYKAvFoa0Ur';
 const PORT = parseInt(process.env.PORT || '8000');
 const DOMAIN = process.env.DOMAIN || '';
-const DB_PATH = process.env.DB_PATH || 'bot_data.json';
+const DB_PATH = process.env.DB_PATH || '';//bot_data.json
 
 const NOTIFY_INTERVAL = 24 * 3600 * 1000; // 1 day (ms)
 const FRAUD_DB_URL = 'https://raw.githubusercontent.com/Squarelan/telegram-verify-bot/main/data/fraud.db';
