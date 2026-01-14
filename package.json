@@ -1,0 +1,13 @@
+{
+  "name": "tg-verify-bot",
+  "version": "1.0.0",
+  "description": "Telegram Verification Bot - VPS Version (Node.js)",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
