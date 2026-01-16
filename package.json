@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node bot.js"
   },
+  "dependencies": {
+    "ws": "^8.7.0"
+  }
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
