@@ -506,7 +506,7 @@ console.log(`
 |           Telegram Verification Bot - VPS Version            |
 |                        (Node.js)                             |
 +--------------------------------------------------------------+
-|  Port: ${PORT}                                                    |
+|  Port: ${PORT}                                               |
 |  Admin: ${ADMIN_UID.padEnd(53)}|
 |  Database: ${DB_PATH.padEnd(50)}|
 +--------------------------------------------------------------+
