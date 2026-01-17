@@ -19,7 +19,7 @@ const fs = require('fs');
 const BOT_TOKEN = process.env.BOT_TOKEN || '8324596212:ACHznhDgRuW2OcTYKAvFoa0UrDiMnef4Qyh';
 const ADMIN_UID = process.env.ADMIN_UID || '1130431721';
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'W2OcTYKAvFoa0Ur';
-const PORT = parseInt(process.env.PORT || '25591');
+const PORT = parseInt(process.env.PORT || '3286');
 const DOMAIN = process.env.DOMAIN || '';
 const DB_PATH = process.env.DB_PATH || 'bot_data.json';
 
