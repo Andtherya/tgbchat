@@ -21,7 +21,7 @@ from aiohttp import web, ClientSession
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '8324596212:ACHznhDgRuW2OcTYKAvFoa0UrDiMnef4Qyh')
 ADMIN_UID = os.environ.get('ADMIN_UID', '1130431721')
 WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET', 'W2OcTYKAvFoa0Ur')
-PORT = int(os.environ.get('PORT', '25707'))
+PORT = int(os.environ.get('PORT', '1060'))
 DOMAIN = os.environ.get('DOMAIN', '')  # For webhook
 DB_PATH = os.environ.get('DB_PATH', 'bot_data.db')
 
