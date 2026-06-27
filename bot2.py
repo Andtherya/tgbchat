@@ -447,29 +447,31 @@ if __name__ == '__main__':
         print('Error: ADMIN_UID not set')
         exit(1)
     
-print(f'''
-========================================================
- Telegram Bot Started
-========================================================
+    print(f'''
+    ========================================================
+     Telegram Bot Started
+    ========================================================
 
-Bot Listening:
-  http://0.0.0.0:{PORT}
+    Bot Listening:
+      http://0.0.0.0:{PORT}
 
-API :
-  GET  /                    Health Check
-  POST /webhook             Telegram Updates
-  GET  /registerWebhook     Register Webhook
-  GET  /unRegisterWebhook   Remove Webhook
+    API :
+      GET  /                    Health Check
+      POST /webhook             Telegram Updates
+      GET  /registerWebhook     Register Webhook
+      GET  /unRegisterWebhook   Remove Webhook
 
-Examples:
-  curl http://127.0.0.1:{PORT}/
-  curl http://127.0.0.1:{PORT}/registerWebhook
-  curl http://127.0.0.1:{PORT}/unRegisterWebhook
+    Examples:
+      curl http://127.0.0.1:{PORT}/
+      curl http://127.0.0.1:{PORT}/registerWebhook
+      curl http://127.0.0.1:{PORT}/unRegisterWebhook
 
-Admin ID : {ADMIN_UID}
+    Admin ID : {ADMIN_UID}
 
-========================================================
-''')
+    ========================================================
+    ''')
+
+
     
     app = create_app()
     web.run_app(app, host='0.0.0.0', port=PORT)
