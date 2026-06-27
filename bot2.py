@@ -459,9 +459,9 @@ API :
   GET  /unRegisterWebhook   Remove Webhook
 
 Examples:
-  curl http://127.0.0.1:{PORT}/
-  curl http://127.0.0.1:{PORT}/registerWebhook
-  curl http://127.0.0.1:{PORT}/unRegisterWebhook
+  curl http://yourIPorDomain:{PORT}/
+  curl http://yourIPorDomain:{PORT}/registerWebhook
+  curl http://yourIPorDomain:{PORT}/unRegisterWebhook
 
 Admin ID : {ADMIN_UID}
 
