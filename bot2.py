@@ -18,8 +18,8 @@ import logging
 from aiohttp import web, ClientSession
 
 # Configuration
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8324596212:ACHznhDgRuW2OcTYKAvFoa0UrDiMnef4Qyh')
-ADMIN_UID = os.environ.get('ADMIN_UID', '1130431721')
+BOT_TOKEN = os.environ.get('BOT_TOKEN', '1587459212:ERGznhDgRuW2OcETWSE2oa0UrDiMnef12WE')
+ADMIN_UID = os.environ.get('ADMIN_UID', '9898745854')
 WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET', 'W2OcTYKAvFoa0Ur')
 PORT = int(os.environ.get('PORT', '8658'))
 DOMAIN = os.environ.get('DOMAIN', '')  # For webhook
