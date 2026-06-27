@@ -448,27 +448,24 @@ if __name__ == '__main__':
         exit(1)
     
     print(f'''
-    ========================================================
-     Telegram Bot Started
-    ========================================================
+========================================================
+ Telegram Bot Started
+========================================================
 
-    Bot Listening:
-      http://0.0.0.0:{PORT}
+API :
+  GET  /                    Health Check
+  POST /webhook             Telegram Updates
+  GET  /registerWebhook     Register Webhook
+  GET  /unRegisterWebhook   Remove Webhook
 
-    API :
-      GET  /                    Health Check
-      POST /webhook             Telegram Updates
-      GET  /registerWebhook     Register Webhook
-      GET  /unRegisterWebhook   Remove Webhook
+Examples:
+  curl http://127.0.0.1:{PORT}/
+  curl http://127.0.0.1:{PORT}/registerWebhook
+  curl http://127.0.0.1:{PORT}/unRegisterWebhook
 
-    Examples:
-      curl http://127.0.0.1:{PORT}/
-      curl http://127.0.0.1:{PORT}/registerWebhook
-      curl http://127.0.0.1:{PORT}/unRegisterWebhook
+Admin ID : {ADMIN_UID}
 
-    Admin ID : {ADMIN_UID}
-
-    ========================================================
+========================================================
     ''')
 
 
